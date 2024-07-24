@@ -16,4 +16,11 @@ namespace Shamsheer.Domain.Entities
         public string Password { get; set; }
         public UserRole Role { get; set; }
     }
+
+    public enum UserRole
+    {
+        User, 
+        Admin, 
+        Merchant
+    }
 }
